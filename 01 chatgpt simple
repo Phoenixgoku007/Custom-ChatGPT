@@ -1,0 +1,8 @@
+'''For newbies who don't have any knowledge on python'''
+
+import openai
+
+openai.api_key = "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"
+
+completion = openai.ChatCompletion.create(model="gpt-3.5-turbo", messages=[{"role": "user", "content": "How to be more producive at work "}])
+print(completion.choices[0].message.content)
