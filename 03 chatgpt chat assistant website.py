@@ -3,7 +3,7 @@
 import openai
 import gradio
 
-openai.api_key = "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"
+openai.api_key = "your api key"
 
 messages = [{"role": "system", "content": "You are a senior backend developer in django and have great expertise in teaching it to junior developers and interns"}]
 
